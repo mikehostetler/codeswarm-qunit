@@ -1,0 +1,19 @@
+{
+  "name": "codeswarm-qunit",
+  "version": "0.0.1",
+  "description": "Plugin for qunit testing.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CodeSwarm/codeswarm-qunit.git"
+  },
+  "author": "CodeSwarm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeSwarm/codeswarm-qunit/issues"
+  },
+  "homepage": "https://github.com/CodeSwarm/codeswarm-qunit",
+  "dependencies": {
+    "run-qunit": "*"
+  }
+}
