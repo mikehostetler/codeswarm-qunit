@@ -7,13 +7,22 @@
     "type": "git",
     "url": "git://github.com/CodeSwarm/codeswarm-qunit.git"
   },
-  "author": "CodeSwarm",
-  "license": "MIT",
+  "author": "CodeSwarm <hello@codeswarm.com>",
+  "license": "Apache 2",
   "bugs": {
     "url": "https://github.com/CodeSwarm/codeswarm-qunit/issues"
   },
   "homepage": "https://github.com/CodeSwarm/codeswarm-qunit",
   "dependencies": {
-    "run-qunit": "*"
-  }
+    "run-qunit": "^0.5.0"
+  },
+  "devDependencies": {
+		"mocha": "^1.18.2"
+	},
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u tdd"
+  },
+  "keywords": [
+    "codeswarm"
+  ]
 }
